@@ -1,0 +1,57 @@
+body {
+      background: url(../images/background.png);
+      background-size: cover;
+      background-attachment: fixed;
+}
+
+/* h1 {
+      font-size: 50px;
+      text-align: center;
+      color: red;
+} */
+
+.bottom {
+      background-color: black;
+      color: white;
+      text-align: center;
+}
+
+#logo {
+      text-align: center;
+}
+
+.bottom-1 {
+      color: white;
+}
+
+.bottom h1 {
+      color: white;
+}
+
+.text-1 {
+      text-align: center;
+}
+
+.developer h1 {
+      color: aqua;
+      text-decoration: none;
+      font-weight: bolder;
+}
+
+.developer img {
+      width: 100px;
+      height: 100px;
+      word-wrap: break-word;
+}
+
+marquee {
+      top: 400px;
+      left: 200px;
+      width: 950px;
+      height: 20px;
+      color: white;
+      font-family: '微软雅黑';
+      padding: 5px;
+      background: rgba(255, 255, 255, 0.445);
+      border-radius: 5px;
+  }

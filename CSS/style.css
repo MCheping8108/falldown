@@ -50,8 +50,16 @@ marquee {
       width: 950px;
       height: 20px;
       color: white;
-      font-family: '微软雅黑';
+      font-family: 'STXINWEI';
       padding: 5px;
       background: rgba(255, 255, 255, 0.445);
       border-radius: 5px;
   }
+
+
+@font-face {
+      font-family: "STXINWEI";
+      src:url("STXINWEI.TTF");
+      font-weight: normal;
+      font-style: normal;
+}

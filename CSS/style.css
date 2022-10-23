@@ -39,8 +39,8 @@ body {
 }
 
 .developer img {
-      width: 100px;
-      height: 100px;
+      width: 200px;
+      height: 200px;
       word-wrap: break-word;
 }
 
@@ -50,7 +50,8 @@ marquee {
       width: 950px;
       height: 20px;
       color: white;
-      font-family: 'STXINWEI';
+      font-family: "OPPOSans-L";
+      font-weight: bolder;
       padding: 5px;
       background: rgba(255, 255, 255, 0.445);
       border-radius: 5px;
@@ -58,8 +59,6 @@ marquee {
 
 
 @font-face {
-      font-family: "STXINWEI";
-      src:url("STXINWEI.TTF");
-      font-weight: normal;
-      font-style: normal;
+      font-family: 'OPPOSans-L';
+      src: url(../font/OPPOSans-L.ttf);
 }

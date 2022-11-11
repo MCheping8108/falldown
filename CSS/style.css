@@ -4,6 +4,60 @@ body {
       background-attachment: fixed;
 }
 
+.wiki-button {
+      border: none;
+      background: rgb(251, 33, 117);
+      background: linear-gradient(0deg, rgba(251, 33, 117, 1) 0%, rgba(234, 76, 137, 1) 100%);
+      color: #fff;
+      overflow: hidden;
+}
+
+.wiki-button:hover {
+      text-decoration: none;
+      color: #fff;
+}
+
+.wiki-button:before {
+      position: absolute;
+      content: '';
+      display: inline-block;
+      top: -180px;
+      left: 0;
+      width: 30px;
+      height: 100%;
+      background-color: #fff;
+      animation: shiny-btn1 3s ease-in-out infinite;
+}
+
+.wiki-button:hover {
+      opacity: .7;
+}
+
+.wiki-button:active {
+      box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .3),
+            -4px -4px 6px 0 rgba(116, 125, 136, .2),
+            inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+            inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+.custom-btn {
+      width: 130px;
+      height: 60px;
+      color: #fff;
+      border-radius: 5px;
+      padding: 10px 25px;
+      font-family: 'Lato', sans-serif;
+      font-weight: 500;
+      background: transparent;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      display: inline-block;
+      box-shadow: inset 2px 2px 2px 0px rgb(255 255 255 / 50%), 7px 7px 20px 0px rgb(0 0 0 / 10%), 4px 4px 5px 0px rgb(0 0 0 / 10%);
+      outline: none;
+}
+
+
 /* h1 {
       font-size: 50px;
       text-align: center;
@@ -56,7 +110,7 @@ marquee {
       padding: 5px;
       background: rgba(255, 255, 255, 0.445);
       border-radius: 5px;
-  }
+}
 
 
 @font-face {

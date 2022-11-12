@@ -8,11 +8,11 @@ Wilson，听从了一个陌生“人”的劝告，为了拯救他被夺走生�
 因为他来到的不是救赎了路程，而是地狱般的折磨......
 
 # 游戏开发者
-<img align="center" src="images\ziye-lan-nobackground.png" width=200px height="200px" >
-<a href="https://space.bilibili.com/381324503"><h2 align="center">梓烨-Lan</h2></a>
+<img image-align="center" src="https://s2.loli.net/2022/11/12/2jhv9fVXgFzlxyS.png" width=200px height="200px" >
+<a href="https://space.bilibili.com/381324503"><h2>梓烨-Lan</h2></a>
 
 # 官网
 
-![jietu1](./images/Snipaste_2022-10-28_21-23-46.png)
+![jietu1](https://s2.loli.net/2022/11/12/EncpYlhqBXZkDm2.png)
 
-![](./images/Snipaste_2022-10-28_21-24-40.png)
+![jietu2](https://s2.loli.net/2022/11/12/rVe5fishKq4MJyS.png)

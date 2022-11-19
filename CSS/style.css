@@ -4,12 +4,18 @@ body {
       background-attachment: fixed;
 }
 
+a {
+      /* 细节bug修复 */
+      color: black;
+}
+
 .wiki-button {
       border: none;
       background: rgb(251, 33, 117);
       background: linear-gradient(0deg, rgba(251, 33, 117, 1) 0%, rgba(234, 76, 137, 1) 100%);
       color: #fff;
       overflow: hidden;
+      padding: 30px;
 }
 
 .wiki-button:hover {

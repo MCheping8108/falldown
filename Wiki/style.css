@@ -17,3 +17,15 @@ span {
     color: white;
     font-size: 20px;
 }
+
+.back a{
+    transition: 0.5s;
+    text-decoration: none;
+    color: white;
+}
+
+.back a:hover {
+    transition-duration: 0.5s;
+    font-size: 30px;
+
+}

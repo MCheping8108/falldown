@@ -123,3 +123,18 @@ marquee {
       font-family: 'OPPOSans-L';
       src: url(../font/OPPOSans-L.ttf);
 }
+
+@media screen and (max-width: 768px) {
+      video {
+            width: 350px;
+            height: 190px;
+      }
+
+      marquee {
+            width: auto;
+      }
+
+      /* body {
+            width: 100%;
+      } */
+}

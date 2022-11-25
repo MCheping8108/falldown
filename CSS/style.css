@@ -138,3 +138,44 @@ marquee {
             width: 100%;
       } */
 }
+
+.website-developer a{
+      transition: 0.5s;
+      color: white;
+}
+
+.website-developer a:hover {
+      transition-duration: 0.5s;
+      font-size: 30px;
+
+}
+
+.cubeTeam img{
+      transition: 0.5s;
+}
+
+.cubeTeam img:hover {
+      transition-duration: 0.5s;
+      width: 400px;
+      height: 400px;
+}
+
+.fortynineTeam img{
+      transition: 0.5s;
+}
+
+.fortynineTeam img:hover {
+      transition-duration: 0.5s;
+      width: 400px;
+      height: 400px;
+}
+
+.NothereTeam img{
+      transition: 0.5s;
+}
+
+.NothereTeam img:hover{
+      transition-duration: 0.5s;
+      width: 400px;
+      height: 400px;
+}

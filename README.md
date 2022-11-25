@@ -41,8 +41,11 @@ Falldown Wiki改为操作说明，并添加动画效果
 
 ## 2022年11月24日
 开放贡献代码，需要阅读[贡献代码指南](贡献代码指南/README.md)
+<<<<<<< HEAD
 
 ## 2022年11月25日
 对移动端网站添加了自适应效果
 
 ![Screenshot_20221125_085907_com.microsoft.emmx.jpg](https://s2.loli.net/2022/11/25/QaWmjncqkdwef4X.jpg)
+=======
+>>>>>>> 0376194e5c079d67321de3f8b3178a0cd62bf479

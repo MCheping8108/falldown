@@ -126,8 +126,8 @@ marquee {
 
 @media screen and (max-width: 768px) {
       video {
-            width: 450px;
-            height: 300px;
+            width: 350px;
+            height: 190px;
       }
 
       marquee {

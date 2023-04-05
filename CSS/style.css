@@ -338,8 +338,9 @@ marquee {
 
 .cubeTeam img:hover {
       transition-duration: 0.5s;
-      width: 400px;
-      height: 400px;
+      width: 320px;
+      height: 320px;
+      box-shadow: 0px 0px 30px red;
 }
 
 .fortynineTeam img{
@@ -348,8 +349,9 @@ marquee {
 
 .fortynineTeam img:hover {
       transition-duration: 0.5s;
-      width: 400px;
-      height: 400px;
+      width: 320px;
+      height: 320px;
+      box-shadow: 0px 0px 30px red;
 }
 
 .NothereTeam img{
@@ -358,6 +360,7 @@ marquee {
 
 .NothereTeam img:hover{
       transition-duration: 0.5s;
-      width: 400px;
-      height: 400px;
+      width: 320px;
+      height: 320px;
+      box-shadow: 0px 0px 30px red;
 }

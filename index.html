@@ -12,6 +12,18 @@
             //取消默认的浏览器自带右键 很重要！！
             e.preventDefault();
                         }
+
+            // 为了禁用开发者工具，我甚至把F12快捷键给禁用了
+            document.onkeydown = function (e) {
+            if (
+                  e.key === 'F12' ||
+                  (e.ctrlKey && e.shiftKey && e.key === 'I') ||
+                  (e.ctrlKey && e.shiftKey && e.key === 'J') ||
+                  (e.ctrlKey && e.key === 'U')
+            ) {
+                  return false;
+            }
+            };
             // 我说梓烨，我祝你必有血光之灾，我从一年前写官网到现在你连个正式版都还没发布，我更新官网都没你那么勤快，你可倒好！万水千山只等闲，再等下去我就删库跑路，我都不想更新官网了，我祝你早日滚蛋
             // function ShakeMe(dom){
             //       this.element=dom;

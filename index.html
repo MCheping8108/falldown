@@ -14,12 +14,13 @@
                         }
 
             // 为了禁用开发者工具，我甚至把F12快捷键给禁用了
+            // 我打死也不给你搞开发者工具
             document.onkeydown = function (e) {
             if (
                   e.key === 'F12' ||
                   (e.ctrlKey && e.shiftKey && e.key === 'I') ||
                   (e.ctrlKey && e.shiftKey && e.key === 'J') ||
-                  (e.ctrlKey && e.key === 'U')
+                  (e.ctrlKey && e.key === 'U') 
             ) {
                   return false;
             }
@@ -64,7 +65,7 @@
                         
 
                         
-                              <a href="https://space.bilibili.com/701274997" target="_blank" class="fortynineTeam"><img src="./images/49-team.jpg" width="300px" height="300px" title="吾乃肆玖创作团队"></a>
+                              <a href="https://space.bilibili.com/701274997" target="_blank" class="fortynineTeam" onclick="alert('旧的团队官方号因不可抗因素被永久关闭，我们推荐您去看看新的官方号\nhttps://space.bilibili.com/1962679368')"><img src="./images/49-team.jpg" width="300px" height="300px" title="吾乃肆玖创作团队"></a>
                         
 
                         

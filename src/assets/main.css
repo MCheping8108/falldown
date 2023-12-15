@@ -1,0 +1,393 @@
+body {
+    background: url(./images/background.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    /* 细节bug修复 */
+    color: black;
+}
+
+.wiki-button {
+    border: none;
+    background: rgb(251, 33, 117);
+    background: linear-gradient(0deg, rgba(251, 33, 117, 1) 0%, rgba(234, 76, 137, 1) 100%);
+    color: #fff;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.wiki-button:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.wiki-button:before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: #fff;
+    animation: shiny-btn1 3s ease-in-out infinite;
+}
+
+.wiki-button:hover {
+    opacity: .7;
+}
+
+.wiki-button:active {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .3),
+          -4px -4px 6px 0 rgba(116, 125, 136, .2),
+          inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+          inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+.custom-btn {
+    width: 130px;
+    height: 60px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgb(255 255 255 / 50%), 7px 7px 20px 0px rgb(0 0 0 / 10%), 4px 4px 5px 0px rgb(0 0 0 / 10%);
+    outline: none;
+}
+
+
+/* h1 {
+    font-size: 50px;
+    text-align: center;
+    color: red;
+} */
+
+.bottom {
+    background-color: black;
+    color: white;
+    text-align: center;
+    box-shadow: 0 0 0 8px black;
+}
+
+#logo {
+    text-align: center;
+}
+
+.bottom-1 {
+    color: white;
+}
+
+.bottom-1 .team {
+    margin-right: 50px;
+}
+
+.bottom h1 {
+    color: white;
+}
+
+.text-1 {
+    text-align: center;
+}
+
+.developer h1 {
+    color: aqua;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.developer img {
+    width: 200px;
+    height: 200px;
+    word-wrap: break-word;
+}
+
+/* .shake {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both
+} */
+
+.developer img:hover{
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both
+}
+
+@keyframes shake {
+    10%, 90% {
+          transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+          transform: translate3d(2px, 0, 0);
+    }
+    30%, 50%, 70% {
+          transform: translate3d(-4px, 0, 0);
+    }
+    40%, 60% {
+          transform: translate3d(4px, 0, 0);
+    }
+}
+
+marquee {
+    top: 400px;
+    left: 200px;
+    width: 950px;
+    height: 20px;
+    color: white;
+    font-family: "OPPOSans-L";
+    font-weight: bolder;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.445);
+    border-radius: 5px;
+}
+
+
+@font-face {
+    font-family: 'OPPOSans-L';
+    src: url(./font/OPPOSans-L.ttf);
+}
+
+@media screen and (max-width: 768px) {
+    video {
+          width: 350px;
+          height: 190px;
+    }
+
+    marquee {
+          width: auto;
+    }
+
+    /* body {
+          width: 100%;
+    } */
+}
+
+.website-developer a{
+    transition: 0.5s;
+    color: white;
+}
+
+.website-developer a:hover {
+    transition-duration: 0.5s;
+    font-size: 30px;
+
+}
+
+.cubeTeam img{
+    transition: 0.5s;
+}
+
+.cubeTeam img:hover {
+    transition-duration: 0.5s;
+    width: 400px;
+    height: 400px;
+}
+
+.fortynineTeam img{
+    transition: 0.5s;
+}
+
+.fortynineTeam img:hover {
+    transition-duration: 0.5s;
+    width: 400px;
+    height: 400px;
+}
+
+.NothereTeam img{
+    transition: 0.5s;
+}
+
+.NothereTeam img:hover{
+    transition-duration: 0.5s;
+    width: 400px;
+    height: 400px;
+}
+
+body {
+    background: url(./images/background.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    /* 细节bug修复 */
+    color: black;
+}
+
+.wiki-button {
+    border: none;
+    background: rgb(251, 33, 117);
+    background: linear-gradient(0deg, rgba(251, 33, 117, 1) 0%, rgba(234, 76, 137, 1) 100%);
+    color: #fff;
+    overflow: hidden;
+    padding: 30px;
+}
+
+.wiki-button:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+.wiki-button:before {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    top: -180px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    background-color: #fff;
+    animation: shiny-btn1 3s ease-in-out infinite;
+}
+
+.wiki-button:hover {
+    opacity: .7;
+}
+
+.wiki-button:active {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .3),
+          -4px -4px 6px 0 rgba(116, 125, 136, .2),
+          inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+          inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+}
+
+.custom-btn {
+    width: 130px;
+    height: 60px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgb(255 255 255 / 50%), 7px 7px 20px 0px rgb(0 0 0 / 10%), 4px 4px 5px 0px rgb(0 0 0 / 10%);
+    outline: none;
+}
+
+
+/* h1 {
+    font-size: 50px;
+    text-align: center;
+    color: red;
+} */
+
+.bottom {
+    background-color: black;
+    color: white;
+    text-align: center;
+    box-shadow: 0 0 0 8px black;
+}
+
+#logo {
+    text-align: center;
+}
+
+.bottom-1 {
+    color: white;
+}
+
+.bottom h1 {
+    color: white;
+}
+
+.text-1 {
+    text-align: center;
+}
+
+.developer h1 {
+    color: aqua;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.developer img {
+    width: 200px;
+    height: 200px;
+    word-wrap: break-word;
+}
+
+marquee {
+    top: 400px;
+    left: 200px;
+    width: 950px;
+    height: 20px;
+    color: white;
+    font-family: "OPPOSans-L";
+    font-weight: bolder;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.445);
+    border-radius: 5px;
+}
+
+
+@font-face {
+    font-family: 'OPPOSans-L';
+    src: url(./font/OPPOSans-L.ttf);
+}
+
+@media screen and (max-width: 768px) {
+    video {
+          width: 350px;
+          height: 190px;
+    }
+
+    marquee {
+          width: auto;
+    }
+
+    /* body {
+          width: 100%;
+    } */
+}
+
+.website-developer a{
+    transition: 0.5s;
+    color: white;
+}
+
+.website-developer a:hover {
+    transition-duration: 0.5s;
+    font-size: 30px;
+
+}
+
+.cubeTeam img{
+    transition: 0.5s;
+}
+
+.cubeTeam img:hover {
+    transition-duration: 0.5s;
+    width: 320px;
+    height: 320px;
+    box-shadow: 0px 0px 30px red;
+}
+
+.fortynineTeam img{
+    transition: 0.5s;
+}
+
+.fortynineTeam img:hover {
+    transition-duration: 0.5s;
+    width: 320px;
+    height: 320px;
+    box-shadow: 0px 0px 30px red;
+}
+
+.NothereTeam img{
+    transition: 0.5s;
+}
+
+.NothereTeam img:hover{
+    transition-duration: 0.5s;
+    width: 320px;
+    height: 320px;
+    box-shadow: 0px 0px 30px red;
+}
